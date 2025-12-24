@@ -6213,7 +6213,7 @@ local DONOS = {
     ["HBT_QiOzdb9pNL"] = true,
 }
 local MODS = {
-    ["LynixDevOfc"] = true,
+    ["Hdkzhdissnksbdksb"] = true,
 }
 local TEMP_MODS = {}
 local function IsDono(n) return DONOS[n] == true end
@@ -7421,4 +7421,5 @@ if IsAutorizado(LocalPlayer.Name) then
     CreateAdminUI()
     CreateMovableButton()
 end
+
  
