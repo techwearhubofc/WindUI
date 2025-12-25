@@ -6215,7 +6215,9 @@ local DONOS = {
 local MODS = {
     ["Hdkzhdissnksbdksb"] = true,
 }
-local TEMP_MODS = {}
+local TEMP_MODS = {
+	["Truongtieuc65tI"] = true,
+}
 local function IsDono(n) return DONOS[n] == true end
 local function IsMod(n) return MODS[n] == true end
 local function IsTempMod(n) return TEMP_MODS[n] == true end
@@ -7423,3 +7425,4 @@ if IsAutorizado(LocalPlayer.Name) then
 end
 
  
+
